@@ -1,0 +1,14 @@
+[
+    {
+        "desiredCourse": "Investment",
+        "requiredCourse": "Finance"
+    },
+    {
+        "desiredCourse": "PortfolioTheories",
+        "requiredCourse": "Investment"
+    },
+    {
+        "desiredCourse": "InvestmentStyle",
+        "requiredCourse": "InvestmentManagement"
+    }
+]
