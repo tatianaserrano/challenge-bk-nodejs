@@ -50,10 +50,6 @@ curl --location --request GET 'http://localhost:3000/sorted-courses' \
         {
             "desiredCourse": "InvestmentStyle",
             "requiredCourse": "InvestmentManagement"
-        },
-        {
-            "desiredCourse": "Finance",
-            "requiredCourse": null
         }
     ]
 }'
@@ -63,3 +59,12 @@ curl --location --request GET 'http://localhost:3000/sorted-courses' \
 ```sh
 npm run test
 ```
+
+## Results
+
+1. Success response
+![](https://github.com/tatianaserrano/challenge-bk-nodejs/blob/main/images/response200.png)
+2. Without auth token header
+![](https://github.com/tatianaserrano/challenge-bk-nodejs/blob/main/images/response401.png)
+3. With expired or wrong auth token
+![](https://github.com/tatianaserrano/challenge-bk-nodejs/blob/main/images/response403.png)
